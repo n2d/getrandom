@@ -85,6 +85,7 @@ cfg_if! {
                 target_arch = "s390x",
                 target_arch = "x86",
                 target_arch = "x86_64",
+                target_arch = "mips",
                 // Minimum supported Linux kernel version for MUSL targets
                 // is not specified explicitly (as of Rust 1.77) and they
                 // are used in practice to target pre-3.17 kernels.
